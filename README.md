@@ -6,7 +6,7 @@ In this programming assignment, you’ll create a simple web application in Flut
 
 ### Implementation requirements:
 1. Use the following packages:
-- :heavy_check_mark: freezed (generating class methods) 
+- [x] freezed (generating class methods) 
 - [x] riverpod (state management)
 - [x] go_router (navigation)
 2. [x] A *Task* class should have three properties (*Title*, *Description* and *Date*) - currently it has only *Title* and *Date*. Add *Description* property to the *Task* class.
