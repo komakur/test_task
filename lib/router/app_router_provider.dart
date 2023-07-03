@@ -27,7 +27,7 @@ final goRouterProvider = Provider(
         routes: [
           GoRoute(
             name: PAGE.TASKS.name,
-            path: '${PAGE.TASKS.url}:id',
+            path: '${PAGE.TASKS.url}/:id',
             pageBuilder: (context, state) {
               return NoTransitionPage(
                 child: TasksPage(
@@ -49,8 +49,8 @@ final goRouterProvider = Provider(
             },
           ),
           GoRoute(
-            name: PAGE.TASKS.name,
-            path: '${PAGE.TASKS.url}:id',
+            name: PAGE.TEAMS.name,
+            path: '${PAGE.TEAMS.url}/:id',
             pageBuilder: (context, state) {
               return NoTransitionPage(
                 child: TeamsPage(
